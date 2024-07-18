@@ -4,6 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    max-width: 100%;
 }
 
 html {
@@ -13,7 +14,6 @@ html {
 body {
     background-color: #3B3B3B;
     color: white;
-    overflow-x: hidden;
 }
 .nav-bar {
     display: flex;
