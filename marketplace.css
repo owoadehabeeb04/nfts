@@ -78,6 +78,7 @@ ul a {
     background-color: #2B2B2B;
     border-radius: 9px;
     border: 1px solid rgb(150, 146, 146, 0.2);
+    color: white;
 }
 .search{
     display: flex;

@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    max-width: 100%;
+  
 }
 
 html {
@@ -14,7 +14,7 @@ html {
 body {
     background-color: #2B2B2B;
     color: white;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 .header {
@@ -30,7 +30,7 @@ body {
 }
 
 .top-header {
-     width: 20rem; 
+    width: 20rem;
     color: white;
     font-size: 45px;
 }
@@ -66,6 +66,7 @@ body {
     color: white;
     background-color: #3B3B3B;
     border-radius: 18px;
+    ;
 }
 
 .animakid img {
@@ -790,7 +791,6 @@ input[type="Email"] {
         gap: 1rem;
         padding: 0rem 2rem;
         margin-top: 2rem;
-        margin: 0 auto;
     }
     .container-first{
         display:none
