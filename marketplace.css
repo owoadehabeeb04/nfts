@@ -13,6 +13,7 @@ html {
 body {
     background-color: #3B3B3B;
     color: white;
+    overflow-x: hidden;
 }
 .nav-bar {
     display: flex;
