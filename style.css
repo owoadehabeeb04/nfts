@@ -14,6 +14,7 @@ html {
 body {
     background-color: #2B2B2B;
     color: white;
+    overflow-x: hidden;
 }
 
 .header {
@@ -194,6 +195,7 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    padding-left: 4.5rem;
 }
 
 .creator-card {
@@ -216,8 +218,10 @@ section {
 .Creators-profiles {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-gap: 4rem;
+    grid-gap: 2rem;
     padding-top: 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
 }
 
 .sales {
@@ -442,6 +446,7 @@ section {
     gap: 10rem;
     padding-left: 4rem;
     padding-bottom: 2rem;
+    margin-left: 0rem;
 
 }
 
@@ -869,6 +874,7 @@ section{
     gap: 0rem;
     width: 100%;
 }
+ 
 .topcreator-notes{
     width: 18rem;
 }
@@ -931,7 +937,7 @@ section{
     align-items: center;
     position: absolute;
     bottom: 0;
-    
+    gap: 8rem;
     padding-left: 4rem;
     padding-bottom: 2rem;
 }
@@ -1316,10 +1322,10 @@ section{
     gap: 2rem;
     padding: 0rem 2rem;
     margin-top: 2rem;
-    margin-left: 0rem;
+     margin-left: 0rem; 
 }
 .space-div{
-    margin-right: 20rem;
+    margin-right: 18rem;
 }
 .content-item2{
     transform: translateX(0rem);
@@ -1392,6 +1398,7 @@ section{
         /* transform: translateX(-6rem); */
         margin-top: 2rem;
         width: 100%;
+        margin-right: 1rem;
     }
     .p-card1{
         display: none;
@@ -1580,9 +1587,7 @@ grid-template-columns: repeat(1, 430px);
 grid-gap: 2rem;
 padding-top: 3rem;
     }
-    .intro{
-        transform: translateX(-2rem);
-    }
+ 
     .dg-text{
         font-size: 1.6rem;
     }
